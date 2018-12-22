@@ -113,3 +113,9 @@ Some open source projects had certain parts built nicely of which a few were use
 If you are venturing into serious IDE related development, I would suggest you look at VSX (Visual Studio extensibility). You can create your own isolated shell of Visual studio and create an IDE. This project was done to understand/explore WPF in general and how much I understand the tools given above.
 
 If you have any questions or find bugs, feel free to contact me.
+
+### 개발 환경 구축
+1. 빌드를 2번한다.
+2. 참조 에러 발생시 원래 참조를 지우고 Libs 폴더의 dll 파일을 참조에 추가한다.
+3. Wide.Tools.Logger 모듈 에러 발생시 각각의 프로젝트를 전부 빌드 해준다.
+
